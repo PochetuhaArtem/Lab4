@@ -1,21 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-void Swap(int a,int b)
-{
-    int temp;
-    temp = a;
-    a=b;
-    b=temp;
-}
-
-void Swap1(int *a,int *b)
-{
-    int temp;
-    temp = *a;
-    *a=*b;
-    *b=temp;
-}
 
 double A(double *arr, int size)
 {
